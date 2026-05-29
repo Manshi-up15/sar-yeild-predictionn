@@ -1,0 +1,29 @@
+# Machine Learning & Deep Learning
+torch
+scikit-learn
+xgboost
+numpy
+pandas
+
+# Geospatial Tools
+rasterio
+geopandas
+shapely
+
+# Backend API
+fastapi
+uvicorn
+python-multipart
+pydantic-settings
+
+# Frontend Dashboard
+streamlit
+plotly
+matplotlib
+
+# Testing & Utilities
+pytest
+httpx
+pytest-cov
+python-dotenv
+pyyaml
