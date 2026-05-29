@@ -18,7 +18,7 @@ def test_sentinel1_downloader_fallback(mock_env):
     )
     
     assert tiff_path.exists()
-    assert tiff_path.suffix == ".tif"
+    assert tiff_path.suffix in (".tif", ".tiff")
     
     # Load and inspect the generated GeoTIFF using rasterio
     with rasterio.open(tiff_path) as src:

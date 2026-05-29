@@ -17,8 +17,8 @@ htmlcov/
 .env
 
 # Application databases, datasets, and weights
-data/
-models/
+/data/
+/models/
 
 # System / IDE settings
 .idea/
